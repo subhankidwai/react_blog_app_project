@@ -5,7 +5,9 @@ const Unique = () => {
     let Location = useLocation()
 
     const data = Location.state
+    
   return (
+
     <div className='unique'>
         <h1 className='unique-heading'>{data.title}</h1>
         <img src={data.img} alt='no image' className='unique-image'/>

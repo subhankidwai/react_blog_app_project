@@ -43,7 +43,6 @@ const Hollywood = () => {
                   <img src={details.img} alt="" />
                   <h3>{details.title}</h3>
                 </div>
-              
               {/* <h4>{details.category}</h4> */}
               <div className='desc'>
                 {details.description.substring(0,200) + '...'} 

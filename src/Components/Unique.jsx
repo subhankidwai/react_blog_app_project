@@ -10,7 +10,7 @@ const Unique = () => {
 
     <div className='unique'>
         <h1 className='unique-heading'>{data.title}</h1>
-        <img src={data.img} alt='no image' className='unique-image'/>
+        <img src={data.img} alt='Not Found' className='unique-image'/>
         <p className='unique-description'>{data.description}</p>
     </div>
   )
